@@ -1,0 +1,41 @@
+.app {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.detail {
+  text-align: left;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.movies-list__item {
+  margin-bottom: 30px;
+}
+
+.button-back {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .movies-list__item {
+    align-items: stretch;
+    margin-bottom: 30px;
+    width: calc(50% - 15px);
+  }
+  
+  .movie {
+    height: 100%;
+  }
+}
